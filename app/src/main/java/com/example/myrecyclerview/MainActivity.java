@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnIte
         dataMakanan.add(new ItemModel("Bebek Goreng", R.drawable.bebek,"Rp. 25.000", "Bebek Goreng Sambal Trasi"));
         dataMakanan.add(new ItemModel("Ayam Goreng", R.drawable.ayamgoreng,"Rp. 15.000", "Ayam Goreng Khas Kudus"));
         dataMakanan.add(new ItemModel("Ayam Geprek", R.drawable.ayamgeprek,"Rp. 17.000", "Ayam Geprek"));
+        dataMakanan.add(new ItemModel("Burjo", R.drawable.burjo,"Rp. 8.000", "Bubur Kacang Hijau Santan"));
 
         ItemAdapter ItemAdapter = new ItemAdapter(dataMakanan,this);
         rvListMakanan.setAdapter(ItemAdapter);
