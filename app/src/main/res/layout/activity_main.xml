@@ -17,7 +17,7 @@
         android:textAlignment="center"
         android:textSize="20sp"
         android:textColor="@color/white"
-        android:background="#D84040" />
+        android:background="#102E50" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListMakanan"
